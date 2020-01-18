@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-[![GitHub release](https://img.shields.io/github/release/Tulto/hyxl.svg)]()
+[![Build status](https://ci.appveyor.com/api/projects/status/i61bukdw34gb966m?svg=true)](https://ci.appveyor.com/project/Tulto/hyxl)
 
 You can use the [editor on GitHub](https://github.com/Tulto/Hyxl/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
