@@ -1,42 +1,34 @@
-## Welcome to GitHub Pages
+# Hyxl (В разработке могут быть баги!)
+Мы создал этого бота в первую очередь для Future North используя JavaScript и Node.js.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/i61bukdw34gb966m?svg=true)](https://ci.appveyor.com/project/Tulto/hyxl)
+**─────────────────────────────────────────────────────────**
 
-You can use the [editor on GitHub](https://github.com/Tulto/Hyxl/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Ресурсы
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Этот бот в основном использует discord.js and node.js.
 
-### Markdown
+Пакет [**enmap**](https://www.npmjs.com/package/enmap) также был неотъемлемой частью создания этого бота.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+И руководство для [**идиота**](https://anidiots.guide).
 
-```markdown
-Syntax highlighted code block
+Работали над ботом [**Maks1mio**](https://github.com/Tulto) and [**DMax**](https://github.com/DMax-YT)
 
-# Header 1
-## Header 2
-### Header 3
+**─────────────────────────────────────────────────────────**
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tulto/Hyxl/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
-
-### Creators
-**Maks1mio** and **He1iZ**
+ **Discord server OkBot Server  -->** [**Click**](https://discord.gg/UuAxpeM)
+ 
+ **Discord server Future North -->** [**Click**](https://discord.gg/HwnpTWS)
+  
+**─────────────────────────────────────────────────────────**  
+  
+  <p>
+    <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="NPM info" /></a>
+  </p> 
+  
+  
+███████╗██████╗░░█████╗░████████╗
+██╔════╝██╔══██╗██╔══██╗╚══██╔══╝
+█████╗░░██████╦╝██║░░██║░░░██║░░░
+██╔══╝░░██╔══██╗██║░░██║░░░██║░░░
+██║░░░░░██████╦╝╚█████╔╝░░░██║░░░
+╚═╝░░░░░╚═════╝░░╚════╝░░░░╚═╝░░░
