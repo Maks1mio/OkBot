@@ -1,7 +1,7 @@
 {
-  "name": "ohgodmusicbot",
-  "version": "1.0.0",
-  "description": "A v11 Discord.JS music bot in 100 lines or less",
+  "name": "OkBot",
+  "version": "1.2.1",
+  "description": "Official Bot Future North",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,6 +17,6 @@
     "fs-extra": "^8.1.0",
     "request": "^2.88.0"
   },
-  "author": "BDISTIN",
-  "license": "MIT"
+  "author": "Tulto",
+  "author": "DMax-YT"
 }

@@ -25,4 +25,3 @@
     <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p> 
   
- 

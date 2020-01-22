@@ -13,7 +13,7 @@ module.exports = client => {
   //dnd = Не беспокоить
   //online = Онлайн
   console.log(`                                                                                                  {FBot Developer Team                                                                    `)
-  client.user.setActivity(`| ${prefix}help | ${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} пользователей | Future North Official Bot |`, { type: "WATCHING"});
+  client.user.setActivity(`| ${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString()} пользователей | Future North Official Bot |`, { type: "WATCHING"});  //${prefix}help
   //LISTENING = Слушает
   //WATCHING = Стримит
   //PLAYING = Играет
