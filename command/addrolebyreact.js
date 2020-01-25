@@ -4,16 +4,14 @@ let posts = [];
 
 const addrolebyreact = msg => {
   console.log("First part");
-  // if (
-  //   msg.member.roles.find(r => r.name === "Creators") ||
-  //   msg.member.roles.find(r => r.name === "Future North")
-  // )
-  //   return;
-  // console.log("Second part")
+  if (!msg.member.roles.find("name", "Future North")) return msg.delete(0);
+  console.log("Second part");
+  
   const args = msg.content
     .slice(tokens.prefix.length)
     .trim()
     .split(/ +/g);
+
   const regex = /(\w+)/;
   if (args[2].match(regex) !== null) {
     args[2] = args[2].match(regex)[0];
@@ -30,8 +28,10 @@ const addrolebyreact = msg => {
     role: msg.guild.roles.find(role => role.name === args[3])
   });
   // console.log(posts[msg.guild.id].posts + "1st")
-  msg.channel.fetchMessage(args[1]).then(m => m.react(m.guild.emojis.find(em => em.name === args[2])));
-  msg.delete(0)
+  msg.channel
+    .fetchMessage(args[1])
+    .then(m => m.react(m.guild.emojis.find(em => em.name === args[2])));
+  msg.delete(0);
   // console.log(posts[msg.guild.id].posts)
 };
 
@@ -69,6 +69,9 @@ const takeRole = (msgReact, user) => {
       } else {
         console.log("No found emoji`s");
       }
+      // const member = msg.guild.member(user);
+      // member.removeRole(post.role);
+      // console.log("Took role");
     } else {
       console.log("No found posts");
     }

@@ -14,11 +14,13 @@ const play = msg => {
       )
       .then(m => {
         m.delete(del_time);
+        msg.delete(del_time);
       });
   if (!msg.guild.voiceConnection) return join(msg).then(() => play(msg));
   if (queue[msg.guild.id].playing)
     return msg.channel.sendMessage("Уже играю").then(m => {
       m.delete(del_time);
+      msg.delete(del_time);
     });
   let dispatcher;
   queue[msg.guild.id].playing = true;
@@ -208,7 +210,10 @@ const queue_show = msg => {
         tosend.length > 15 ? "*[Показываются только следующие 15]*" : ""
       }\n\`\`\`${tosend.slice(0, 15).join("\n")}\`\`\``
     )
-    .then(m => m.delete(del_time));
+    .then(m => {
+      m.delete(del_time);
+      msg.delete(del_time);
+    });
 };
 
 const help = msg => {
@@ -237,7 +242,7 @@ const help = msg => {
       // 'volume-(---) : "Уменьшает громкость на 2%/-"',
       "```"
     ];
-    msg.channel.sendMessage(tosend.join("\n")).then(() => msg.delete(0));
+    msg.channel.sendMessage(tosend.join("\n")).then(() => msg.delete(del_time));
   }
 };
 
