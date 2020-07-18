@@ -19,12 +19,6 @@
 
 **─────────────────────────────────────────────────────────**
 
- **Discord server OkBot Server  -->** [**Click**](https://discord.gg/UuAxpeM)
- 
- **Discord server Future North -->** [**Click**](https://discord.gg/HwnpTWS)
-  
-**─────────────────────────────────────────────────────────**  
-  
   <p>
     <a href="https://nodei.co/npm/discord.js/"><img src="https://nodei.co/npm/discord.js.png?downloads=true&stars=true" alt="NPM info" /></a>
   </p> 
